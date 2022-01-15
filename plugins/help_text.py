@@ -54,9 +54,9 @@ async def start(bot, update):
                     InlineKeyboardButton(
                         "Source code ⚡", url="https://github.com/Clinton-Abraham/UPLOADER-BOT"
                     ),
-                    InlineKeyboardButton("Project Channel 👨🏻‍💻", url="https://t.me/Space_X_bots"),
+                    InlineKeyboardButton("Updates Channel 👨🏻‍💻", url="https://t.me/ullastv"),
                 ],
-                [InlineKeyboardButton("Developer 👨‍⚖️", url="https://t.me/clinton_abraham_bot")],
+                [InlineKeyboardButton("Developer 👨‍⚖️", url="https://t.me/m8u3_bot")],
             ]
         ),
         reply_to_message_id=update.message_id
