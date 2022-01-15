@@ -215,7 +215,7 @@ async def youtube_dl_call_back(bot, update):
                     chat_id=update.message.chat.id,
                     document=download_directory,
                     thumb=thumbnail,
-                    caption=description,
+                    caption=custom_file_name,
                     parse_mode="HTML",
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
