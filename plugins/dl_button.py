@@ -148,7 +148,7 @@ async def ddl_call_back(bot, update):
                     chat_id=update.message.chat.id,
                     document=download_directory,
                     thumb=thumb_image_path,
-                    caption=description,
+                    caption=custom_file_name,
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
